@@ -26,7 +26,7 @@ Brute-force tool that cracks hashed passwords
 Auto-detects the hash function and variant
 Can use dictionary attacks with third party wordlists
 
-# BurpSuite professional
+# BURPsuite professional
 
 # WireShark
 
