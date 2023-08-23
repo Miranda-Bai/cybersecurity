@@ -29,4 +29,44 @@ Three-way handshake: SYN -> SYN ACK -> ACK
 7 Application - HTTP, SMTP,
 
 ## Subnetting
+Subnet guide.xlsx
 
+# Kali Linux Overview
+
+# Sudo Overview
+Super User do
+## Root permission
+`sudo cat /etc/shadow`
+The `pwd` command stands for "print working directory.
+
+# Navigating the File System
+`ls`: list all files and folders
+`ls -la`: list all files and folders including hidden files
+`mkdir` : making a directory
+`rmdir`
+
+drwxr-xr-x: d - file type is directory, r - read, w - write, x - execute permission
+
+explainshell.com
+
+`echo [content] > [file name]`
+`rm [file name]`
+`cp [file name] [copied file name]`
+`mv [file name] [dir name]`
+case sensitive
+`passwd`: changing password
+
+# Users & Privileges
+
+# Common Network Commands
+
+
+# Viewing, Creating & Editing Files
+
+# Starting and Stopping Services
+
+# Install and Updating Tools
+
+# Bash Scripting
+
+# Python
