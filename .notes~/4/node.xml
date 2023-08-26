@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="TOR browser" unique_id="4" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="#26a269" ts_creation="1692928730" ts_lastsave="1692928749">
+    <rich_text># TOR Browser 
+Can be runned on Tail OS, Tail OS has to be downloaded on USB only
+[TOR](</rich_text>
+    <rich_text link="webs https://www.torproject.org/">https://www.torproject.org/</rich_text>
+    <rich_text>): The Onion Router
+ISP: Internet Service Provider
+</rich_text>
+    <rich_text link="webs https://browserleaks.com/">https://browserleaks.com/</rich_text>
+  </node>
+</cherrytree>

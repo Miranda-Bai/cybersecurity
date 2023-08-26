@@ -1,4 +1,7 @@
-# nmap
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node name="Basic" unique_id="3" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1692928478" ts_lastsave="1692928575">
+    <rich_text># nmap
 nmap -v -A -sV [ip/ip range]
 nmap -p 80,443 --open [ip/ip range]
 
@@ -6,6 +9,8 @@ Asks Nmap to choose 100,000 hosts at random and scan them for web servers (port 
 nmap -v -iR 100000 -Pn -p 80,443
 
 nmap -A -T4 [scanme.nmap.org]
+-A: This option enables "Aggressive" mode, which includes various scan types such as a version scan, script scan, and traceroute.
+-T4: This option sets the timing template to "Aggressive," meaning it increases the speed of the scan to send more packets per second.
 
 # nikto
 http scan
@@ -30,17 +35,23 @@ Can use dictionary attacks with third party wordlists
 
 # WireShark
 
-# TOR Browser
-[TOR](https://www.torproject.org/): The Onion Router
+# TOR Browser (Can be runned on Tail OS, Tail OS has to be downloaded on USB only)
+[TOR](</rich_text>
+    <rich_text link="webs https://www.torproject.org/">https://www.torproject.org/</rich_text>
+    <rich_text>): The Onion Router
 ISP: Internet Service Provider
-https://browserleaks.com/
+</rich_text>
+    <rich_text link="webs https://browserleaks.com/">https://browserleaks.com/</rich_text>
+    <rich_text>
 
 # Ransomware
 1. Locker ransomware
 2. Crypto-ransomware
 3. Scareware
 
-The website that provides free decryption tools for 150+ ransomware variants: https://www.nomoreransom.org/
+The website that provides free decryption tools for 150+ ransomware variants: </rich_text>
+    <rich_text link="webs https://www.nomoreransom.org/">https://www.nomoreransom.org/</rich_text>
+    <rich_text>
 
 # Malware
 Malware: Malicious software
@@ -80,4 +91,6 @@ A honeypot is a decoy system or network that is set up to attract and monitor ma
 
 **IDS:** Monitors network and system activities for signs of intrusion or malicious behavior.
 **Firewalls:** Control and filter network traffic based on predefined rules to prevent unauthorized access.
-**Honeypots:** Attract and monitor attackers to gather information about their activities and tactics.
+**Honeypots:** Attract and monitor attackers to gather information about their activities and tactics.</rich_text>
+  </node>
+</cherrytree>
