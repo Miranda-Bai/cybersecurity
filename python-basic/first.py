@@ -32,32 +32,42 @@ print(age + int(str1))
 
 print("**\n")
 # Functions
+
+
 def testfun():
     print("who am I?")
 
+
 testfun()
+
 
 def who_am_i(name, age):
     print("I'm " + name + " and " + str(age) + " years old.")
 
+
 who_am_i("M", 31)
+
 
 def multiply(x, y):
     return x * y
 
-print(multiply(3,4))
+
+print(multiply(3, 4))
 
 print(type(age))
 
 # LISTS - Have brackets []
-movies=["When Harry met Sally", "The Hangover", "The Perks of Being a Wallflower", "The Exorcist"]
-print(movies[1:3]) # return the first index number given right until the last number, but not include the last number
+movies = ["When Harry met Sally", "The Hangover",
+          "The Perks of Being a Wallflower", "The Exorcist"]
+# return the first index number given right until the last number, but not include the last number
+print(movies[1:3])
 
-print(movies[1:]) # ["The Hangover", 'The Perks of Being a Wallflower', 'The Exorcist']
-print(movies[:1]) # ["When Harry met Sally"]
-print(movies[-1]) # The Exorcist # return the last item in the list
+# ["The Hangover", 'The Perks of Being a Wallflower', 'The Exorcist']
+print(movies[1:])
+print(movies[:1])  # ["When Harry met Sally"]
+print(movies[-1])  # The Exorcist # return the last item in the list
 
-print(len(movies)) # count items in the list
+print(len(movies))  # count items in the list
 
 movies.append("JAWS")
 print(movies)
@@ -65,10 +75,10 @@ print(movies)
 movies.insert(2, "Hustle")
 print(movies)
 
-movies.pop() # remove the last item
+movies.pop()  # remove the last item
 print(movies)
 
-movies.pop(0) # remove the first item
+movies.pop(0)  # remove the first item
 print(movies)
 
 amber_movies = ["Just Go With It", "50 First Date"]
@@ -101,14 +111,43 @@ print(my_name[-1])
 
 sentence = "This is a sentence."
 print(sentence[:4])
-print(sentence.split()) # delimeter - default is a space
+print(sentence.split())  # delimeter - default is a space
 
 sentence_split = sentence.split()
 sentence_join = " ".join(sentence_split)
 print(sentence_join)
 
-quote="He said, 'give me all your money'."
+quote = "He said, 'give me all your money'."
 print(quote)
 
 quote = "He said, \"give me all your money\"."
 print(quote)
+
+print("A" in "Apple")  # True
+print("a" in "Apple")  # False
+print("A".lower() in "Apple".lower())  # improved
+
+movie = "The Hangover"
+print("My favorite movie is {}.")
+print("My favorite movie is {}.".format(movie))
+print("My favorite movie is %s." % movie)
+print(f"My favorite movie is {movie}.")
+
+# Dictionaries - key/value pairs {}
+# drink is the key, price is the value
+drinks = {"White Russian": 7, "Old Fashioned": 10, "Lemon Drop": 8}
+
+employees = {
+    "Finance": ["Bob", "Linda", "Tina"],
+    "IT": ["Gene", "Louise"],
+    "HR": []
+}
+print(employees)
+
+employees["Legal"]=["Frond", "Jimmy"]
+print(employees)
+
+employees.update({"Sales":["Andy", "Olive"]})
+print(employees)
+
+print(drinks.get("White Russian"))
