@@ -1,3 +1,4 @@
 {
-    "C_Cpp.default.compilerPath": "d:\\Github\\cybersecurity\\BinaryExploit\\vulne.c"
+    "C_Cpp.default.compilerPath": "d:\\Github\\cybersecurity\\BinaryExploit\\vulne.c",
+    "dotnet.defaultSolution": "HTB_visual.sln"
 }
