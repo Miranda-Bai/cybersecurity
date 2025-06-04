@@ -1,3 +1,4 @@
+## concurrent session attack
 def queueRequests(target, wordlists):
 
     # if the target supports HTTP/2, use engine=Engine.BURP2 to trigger the single-packet attack
